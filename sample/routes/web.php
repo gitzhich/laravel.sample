@@ -23,9 +23,10 @@ Route::get('/', function () {
 });
 
 // ***** 開始 *****
-Route::resource('/user', UserController::class);
+Route::get('/show', [ArticleController::class, 'show']); // 課題2
+
+Route::resource('/user', UserController::class); // 課題3
 
 //Route::resource('/book', BookController::class);
-//Route::get('/show', [ArticleController::class, 'show']);
 //Route::get('/hiyoko', function() { return 'のたまご'; });
 // ***** 終了 *****

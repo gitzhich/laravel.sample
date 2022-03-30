@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
     <head>
-        <title>Laravel Hello</title>
+        <title>Laravel Kadai2</title>
     </head>
     <body>
-        <h1>Laravel Hello</h1>
+        <h1>Hello World!!!</h1>
         <p>{{$hello}}</p>
     </body>
 </html>
