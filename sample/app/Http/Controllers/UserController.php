@@ -15,10 +15,10 @@ class UserController extends Controller
     public function index()
     {
         // DBよりUserテーブルの値を全て取得
-        $users = User::all();
+        $users = User::all(); // レビュー
 
         // 取得した値をビュー「user/index」に渡す
-        return view('user/index', compact('users'));
+        return view('user/index', compact('users')); // レビュー
     }
 
     /**

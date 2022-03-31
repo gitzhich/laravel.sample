@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->increments('num');
+            $table->increments('num'); // レビュー
             $table->string('name', 50);
             $table->integer('age');
             $table->timestamps();

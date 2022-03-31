@@ -1,4 +1,5 @@
 # 課題1,2,3 佐藤廷至
+レビューをお願いします。
 
 ## 課題1
 [Git研修完了後のSourceTreeのSS](./kadai1/Git%E7%A0%94%E4%BF%AESS.png)  

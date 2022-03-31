@@ -3,8 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 // ***** 追加 *****
-use App\Http\Controllers\UserController;
-use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\UserController; // レビュー
+use App\Http\Controllers\ArticleController; // レビュー
 use App\Http\Controllers\BookController;
 
 /*
@@ -23,9 +23,9 @@ Route::get('/', function () {
 });
 
 // ***** 開始 *****
-Route::get('/show', [ArticleController::class, 'show']); // 課題2
+Route::get('/show', [ArticleController::class, 'show']); // 課題2 レビュー
 
-Route::resource('/user', UserController::class); // 課題3
+Route::resource('/user', UserController::class); // 課題3 レビュー
 
 //Route::resource('/book', BookController::class);
 //Route::get('/hiyoko', function() { return 'のたまご'; });

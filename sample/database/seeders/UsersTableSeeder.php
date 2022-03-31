@@ -17,7 +17,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        // ***** 追加開始 *****
+        // ***** 追加開始 ***** レビュー
         $tableName = 'users';
         // テーブルのクリア
         DB::table($tableName)->truncate();
