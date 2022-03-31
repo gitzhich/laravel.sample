@@ -8,7 +8,7 @@ class ArticleController extends Controller
 {
 // ***** 開始 *****
     function show() {
-        return view('article');
+        return view('article'); // レビュー
     }
 // ***** 終了 *****
 }
