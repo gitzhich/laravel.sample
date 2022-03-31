@@ -8,10 +8,7 @@ class ArticleController extends Controller
 {
 // ***** 開始 *****
     function show() {
-        $data = [
-            'hello'=>'ハロー！',
-        ];
-        return view('article', $data);
+        return view('article');
     }
 // ***** 終了 *****
 }

@@ -5,6 +5,7 @@
 
 ## 課題2
 [ルーティング](./sample/routes/web.php)  
+(http://localhost:8000/show)  
 26行目でgetしてArticleControllerを呼び出し  
 
 [コントローラー](./sample/app/Http/Controllers/ArticleController.php)  
@@ -15,6 +16,7 @@ Hello World!!!と表示
 
 ## 課題3
 [ルーティング](./sample/routes/web.php)  
+(http://localhost:8000/user)  
 28行目でUserControllerを呼び出し  
 
 [コントローラー](./sample/app/Http/Controllers/UserController.php)  
@@ -24,6 +26,6 @@ indexでテーブルの値をすべて取得
 [ビュー](./sample/resources/views/user/index.blade.php)  
 値を表示
 
-### 課題3 SQLシートの作成
+### 課題3 MySQLテーブルの作成
 [マイグレーション](./sample/database/migrations/2022_03_30_151442_create_users_table.php)  
 [シーディング](./sample/database/seeders/UsersTableSeeder.php)
