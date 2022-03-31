@@ -4,8 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 // ***** 追加 *****
 use App\Http\Controllers\UserController;
-use App\Http\Controllers\BookController;
 use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\BookController;
 
 /*
 |--------------------------------------------------------------------------
